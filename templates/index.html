@@ -1,8 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
     <h1>{% block title %}Blog{% endblock %}</h1>
+    {% for post in posts %}
+        <a href="#">
+            <h2>{{ post['title'] }}</h2>
+        </a>
+        <span class="badge badge-primary">{{ post['created'] }}</span>
+        <hr>
+    {% endfor %}
 {% endblock %}
 
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,3 +22,4 @@
    <h1>Welcome to my blog!</h1>
 </body>
 </html>
+-->
