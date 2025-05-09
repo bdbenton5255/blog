@@ -1,0 +1,1 @@
+ A basic blog project created using Python's Flask. 
