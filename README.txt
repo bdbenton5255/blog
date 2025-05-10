@@ -1,1 +1,1 @@
-A basic blog project created using Python's Flask and SQLite.
+Fully featured blog created using Python's Flask and SQLite.
